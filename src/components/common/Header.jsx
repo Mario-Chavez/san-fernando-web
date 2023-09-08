@@ -32,8 +32,8 @@ const Header = () => {
                             />
                         </Navbar.Brand>
                         <Navbar.Brand href="#">
-                            <div class="glitch-wrapper">
-                                <div class="glitch" data-glitch="El Verde">
+                            <div className="glitch-wrapper">
+                                <div className="glitch" data-glitch="El Verde">
                                     El Verde
                                 </div>
                             </div>
