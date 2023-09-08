@@ -19,17 +19,24 @@ const Header = () => {
                     bg="dark"
                     data-bs-theme="dark"
                     expand={expand}
-                    className="bg-body-tertiary mb-3"
+                    className="bg-body-tertiary "
                 >
                     <Container fluid className="fw-bold ">
                         <Navbar.Brand href="#">
                             {" "}
                             <img
                                 src={escudo}
-                                width="90rem"
+                                width="75rem"
                                 className="d-inline-block align-top ms-2 rounded"
                                 alt="React Bootstrap logo"
                             />
+                        </Navbar.Brand>
+                        <Navbar.Brand href="#">
+                            <div class="glitch-wrapper">
+                                <div class="glitch" data-glitch="El Verde">
+                                    El Verde
+                                </div>
+                            </div>
                         </Navbar.Brand>
                         <Navbar.Toggle
                             aria-controls={`offcanvasNavbar-expand-${expand}`}
