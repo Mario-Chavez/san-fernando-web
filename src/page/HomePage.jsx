@@ -1,10 +1,11 @@
 import React from "react";
+import Home from "../components/Home";
 
 const HomePage = () => {
     return (
-        <div>
-            <h1>soy el inicio</h1>
-        </div>
+        <>
+            <Home />
+        </>
     );
 };
 
