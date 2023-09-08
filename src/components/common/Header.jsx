@@ -8,8 +8,8 @@ import {
     NavDropdown,
     Button,
 } from "react-bootstrap";
-import escudo from "../assets/escudo-original.png";
-import escudoSvg from "../assets/escudo-svg.png";
+import escudo from "../../assets/escudo-original.png";
+
 const Header = () => {
     return (
         <>
@@ -21,13 +21,13 @@ const Header = () => {
                     expand={expand}
                     className="bg-body-tertiary mb-3"
                 >
-                    <Container fluid>
+                    <Container fluid className="fw-bold ">
                         <Navbar.Brand href="#">
                             {" "}
                             <img
                                 src={escudo}
                                 width="90rem"
-                                className="d-inline-block align-top ms-3"
+                                className="d-inline-block align-top ms-2 rounded"
                                 alt="React Bootstrap logo"
                             />
                         </Navbar.Brand>
@@ -35,6 +35,7 @@ const Header = () => {
                             aria-controls={`offcanvasNavbar-expand-${expand}`}
                         />
                         <Navbar.Offcanvas
+                            className="fw-bold "
                             bg="dark"
                             data-bs-theme="dark"
                             id={`offcanvasNavbar-expand-${expand}`}
