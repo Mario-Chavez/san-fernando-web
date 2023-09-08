@@ -8,18 +8,35 @@ import {
     NavDropdown,
     Button,
 } from "react-bootstrap";
-
+import escudo from "../assets/escudo-original.png";
+import escudoSvg from "../assets/escudo-svg.png";
 const Header = () => {
     return (
         <>
             {["lg"].map((expand) => (
-                <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
+                <Navbar
+                    key={expand}
+                    bg="dark"
+                    data-bs-theme="dark"
+                    expand={expand}
+                    className="bg-body-tertiary mb-3"
+                >
                     <Container fluid>
-                        <Navbar.Brand href="#">San Fernando de Leales</Navbar.Brand>
+                        <Navbar.Brand href="#">
+                            {" "}
+                            <img
+                                src={escudo}
+                                width="90rem"
+                                className="d-inline-block align-top ms-3"
+                                alt="React Bootstrap logo"
+                            />
+                        </Navbar.Brand>
                         <Navbar.Toggle
                             aria-controls={`offcanvasNavbar-expand-${expand}`}
                         />
                         <Navbar.Offcanvas
+                            bg="dark"
+                            data-bs-theme="dark"
                             id={`offcanvasNavbar-expand-${expand}`}
                             aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
                             placement="end"
