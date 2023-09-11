@@ -11,7 +11,7 @@ const Footer = () => {
         <>
             <footer className="  fw-bold  mt-auto  text-bg-dark pb-5 " id="footer">
                 <div className="text-center  d-flex flex-column justify-content-center align-items-center">
-                    <Image src={logo} style={{ width: "18rem", marginBottom: "2rem" }} />
+                    <Image src={logo} style={{ width: "15rem", marginBottom: "2rem" }} />
                 </div>
                 <div className="container d-flex justify-content-center ">
                     <div className="row">
@@ -51,19 +51,24 @@ const Footer = () => {
                                             className=" text-reset text-green"
                                         >
                                             {" "}
-                                            <AiOutlineFacebook size={35} />
+                                            <AiOutlineFacebook
+                                                size={35}
+                                                className="ms-3"
+                                            />
                                         </a>
                                     </div>
                                 </li>
                                 <li className="py-2">
                                     <div>
-                                        Instagram <AiOutlineInstagram size={35} />
+                                        Instagram{" "}
+                                        <AiOutlineInstagram size={35} className="ms-3" />
                                     </div>
                                 </li>
                                 <li className="py-2">
                                     {" "}
                                     <div>
-                                        Twitter <AiOutlineTwitter size={35} />
+                                        Twitter{" "}
+                                        <AiOutlineTwitter size={35} className="ms-3" />
                                     </div>
                                 </li>
                             </ul>

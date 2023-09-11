@@ -3,6 +3,7 @@ import { Carousel, Container, Image } from "react-bootstrap";
 import imgSlider1 from "../assets/img-slider1.png";
 import imgSlider2 from "../assets/img-slider2.png";
 import imgSlider3 from "../assets/img-slider3.png";
+import SectionMedia from "./SectionMedia";
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
                     <Carousel.Caption></Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+            <SectionMedia />
         </div>
     );
 };
