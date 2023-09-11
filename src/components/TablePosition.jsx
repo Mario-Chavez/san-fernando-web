@@ -6,17 +6,19 @@ import zonab from "../assets/table/zona-b.png";
 
 const TablePosition = () => {
     return (
-        <div className=" container ">
+        <div className=" container my-5 ">
             <Container className=" text-bg-dark">
-                <Row className=" ">
-                    <Col>
+                <div className="text-center">
+                    <Image src={logo} style={{ width: "10rem" }} />
+                </div>
+                <Row className="my-5 pb-5">
+                    <Col sm={6}>
+                        <p>Zona A</p>
                         <Image variant="top" src={zonaA} className="w-100" />
                     </Col>
-                    <Col>
+                    <Col sm={6}>
+                        <p>Zona B</p>
                         <Image variant="top" src={zonab} className="w-100" />
-                    </Col>
-                    <Col>
-                        <Image variant="top" src={logo} style={{ width: "5rem" }} />
                     </Col>
                 </Row>
             </Container>
