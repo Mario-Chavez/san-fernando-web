@@ -102,3 +102,14 @@ section {
   -moz-box-shadow: 3.5px 3px 11px 2.5px #dddddd;
   box-shadow: 3.5px 3px 11px 2.5px #dddddd;
 }
+.fb-page iframe {
+  border: none; /* Elimina el borde del iframe */
+   
+}
+
+/* Estilos para el enlace del nombre de la página */
+.fb-page a {
+  color: #1877f2; /* Cambia el color del enlace */
+  text-decoration: none; /* Elimina la subrayado del enlace */
+  font-weight: bold; /* Hace que el texto sea negrita */
+}

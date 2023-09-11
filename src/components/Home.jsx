@@ -6,12 +6,14 @@ import imgSlider3 from "../assets/img-slider3.png";
 import SectionMedia from "./SectionMedia";
 import AboutMe from "./AboutMe";
 import TablePosition from "./tablePosition";
+import FacebookComponents from "./FacebookComponents";
 
 const Home = () => {
     return (
         <div className="">
             <SectionMedia />
             <TablePosition />
+            <FacebookComponents />
             {/* <AboutMe /> */}
             <Carousel>
                 <Carousel.Item>
