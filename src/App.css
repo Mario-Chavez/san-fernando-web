@@ -96,3 +96,9 @@ section {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
+/* shadow card fechas */
+.card-style-shadow{
+  -webkit-box-shadow: 3.5px 3px 11px 2.5px #dddddd;
+  -moz-box-shadow: 3.5px 3px 11px 2.5px #dddddd;
+  box-shadow: 3.5px 3px 11px 2.5px #dddddd;
+}
