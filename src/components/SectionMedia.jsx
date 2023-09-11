@@ -5,10 +5,9 @@ import bandera from "../assets/bandera-principal.png";
 const SectionMedia = () => {
     return (
         <>
-            <div className="w-100 object-fit-cover">
-                <img src={bandera} alt="" />
+            <div className="container-banner">
                 <div>
-                    <img src={letra} alt="" />
+                    <img src={letra} alt="vamos-los-verder" className="w-100" />
                 </div>
             </div>
         </>

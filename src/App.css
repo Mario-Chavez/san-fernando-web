@@ -86,3 +86,13 @@ section {
      transform: translate(0);
   }
 }
+/* baner medio */
+.container-banner {
+  width: 100%;
+  background-image: url(/src/assets/bandera-principal.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
