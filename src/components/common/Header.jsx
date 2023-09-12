@@ -8,7 +8,7 @@ import {
     NavDropdown,
     Button,
 } from "react-bootstrap";
-import escudo from "../../assets/escudo-original.png";
+import escudo from "../../assets/SANfER-escudo.png";
 
 const Header = () => {
     return (
