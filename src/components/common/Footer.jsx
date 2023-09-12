@@ -43,8 +43,8 @@ const Footer = () => {
                     <Image src={logo} style={{ width: "15rem", marginBottom: "2rem" }} />
                 </div>
                 <div className="container d-flex justify-content-center ">
-                    <div className="row">
-                        <div className="col-md-4 text-center text-md-start ">
+                    <div className="row mb-4">
+                        <div className="col-md-6 text-center text-md-start ">
                             <h3>INFORMACIÓN</h3>
                             <ul className="list-unstyled">
                                 <li className="py-2">
@@ -70,7 +70,7 @@ const Footer = () => {
                             </ul>
                         </div>
 
-                        <div className="col-md-4 text-center text-md-start">
+                        <div className="col-md-6 text-center text-md-start">
                             <h3 className="text-decoration-none">CONTACTANOS</h3>
                             <p className="text-center text-md-start">
                                 Suscríbete a nuestros boletines ahora y mantente al día
