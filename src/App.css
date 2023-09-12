@@ -96,6 +96,16 @@ section {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
+/* footer */
+.container-footer {
+  width: 100%;
+  background-image: url(/src/assets/footer_sanFer.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
 /* shadow card fechas */
 .card-style-shadow{
   -webkit-box-shadow: 3.5px 3px 11px 2.5px #dddddd;
