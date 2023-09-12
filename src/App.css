@@ -10,8 +10,8 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background: rgb(43,48,53);
-  background: linear-gradient(0deg, rgba(3,153,53,0.840073700378589) 0%, rgba(43,48,53,1) 100%);  
+  /* background: rgb(43,48,53);
+  background: linear-gradient(0deg, rgba(3,153,53,0.840073700378589) 0%, rgba(43,48,53,1) 100%);   */
 }
 
 section {

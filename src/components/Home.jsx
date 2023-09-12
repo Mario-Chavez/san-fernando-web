@@ -7,12 +7,14 @@ import SectionMedia from "./SectionMedia";
 import AboutMe from "./AboutMe";
 import TablePosition from "./tablePosition";
 import FacebookComponents from "./FacebookComponents";
+import NextMach from "./NextMach";
 
 const Home = () => {
     return (
         <div className="">
             <SectionMedia />
             <TablePosition />
+            <NextMach />
             <FacebookComponents />
             {/* <AboutMe /> */}
             <Carousel>
