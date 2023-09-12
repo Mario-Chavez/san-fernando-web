@@ -101,10 +101,10 @@ section {
   width: 100%;
   background-image: url(/src/assets/footer_sanFer.png);
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 50% 90%;
   position: relative;
-  padding-top: 3rem;
-  padding-bottom: 4rem;
+  
+  padding-bottom: 3rem;
 }
 /* shadow card fechas */
 .card-style-shadow{

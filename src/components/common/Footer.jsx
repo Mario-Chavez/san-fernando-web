@@ -6,41 +6,37 @@ import {
 } from "react-icons/ai";
 import logo from "../../assets/escudo-svg.png";
 // import footer from "../../assets/footer_sanFer.png";
-import { Image } from "react-bootstrap";
+import { Col, Image, Row } from "react-bootstrap";
 const Footer = () => {
     return (
         <>
             <footer className="  fw-bold  mt-auto  text-bg-dark pb-5 " id="footer">
                 <div className="container-footer">
-                    <div className=" text-center">
-                        <h3 className="fw-bolder">SIGUENOS</h3>
-                        <ul className="list-unstyled ">
-                            <li className="py-2 mx-auto">
+                    <div className="  text-center py-5">
+                        <h6 className="fw-bolder mb-2">SÍGUENOS :</h6>
+                        <div className=" d-flex justify-content-center">
+                            <div className="py-2">
                                 <div>
-                                    Facebook{" "}
                                     <a
                                         href="https://www.facebook.com/CASFLEALES?locale=es_LA"
                                         className=" text-reset text-green"
                                     >
-                                        {" "}
-                                        <AiOutlineFacebook size={35} className="ms-3" />
+                                        <AiOutlineFacebook size={50} className="me-3" />
                                     </a>
                                 </div>
-                            </li>
-                            <li className="py-2">
+                            </div>
+                            <div className="py-2">
                                 <div>
-                                    Instagram{" "}
-                                    <AiOutlineInstagram size={35} className="ms-3" />
+                                    <AiOutlineInstagram size={50} className="mx-3" />
                                 </div>
-                            </li>
-                            <li className="py-2">
+                            </div>
+                            <div className="py-2">
                                 {" "}
                                 <div>
-                                    Twitter{" "}
-                                    <AiOutlineTwitter size={35} className="ms-3" />
+                                    <AiOutlineTwitter size={50} className="ms-3" />
                                 </div>
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="text-center  d-flex flex-column justify-content-center align-items-center">
