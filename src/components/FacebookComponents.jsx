@@ -46,9 +46,10 @@ const FacebookComponents = () => {
                         Fernando al máximo. A través de nuestras plataformas en línea, te
                         ofrecemos una ventana directa al corazón del club, donde las
                         emociones fluyen sin cesar. No te quedes fuera de la jugada. Únete
-                        a nosotros en las redes sociales y prepárate para vivir el fútbol
-                        como nunca antes.{" "}
-                        <p className="fw-bolder text-success">¡Vamos Los Verdes!</p>
+                        a nosotros, enterate de todas las actividades del club en su
+                        distintas disciplina y prepárate para vivir el fútbol como nunca
+                        antes.{" "}
+                        <p className="fw-bolder text-success">¡Vamos los verdes!</p>
                     </div>
                 </Col>
 
