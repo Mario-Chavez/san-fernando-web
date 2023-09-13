@@ -1,6 +1,5 @@
 import React from "react";
 import letra from "../assets/letras-verde.png";
-import bandera from "../assets/bandera-principal.png";
 
 const SectionMedia = () => {
     return (

@@ -7,9 +7,9 @@ import zonab from "../assets/table/zona-b.png";
 const TablePosition = () => {
     return (
         <div className=" container my-5 ">
-            <Container className=" text-bg-dark card-style-shadow">
+            <Container className=" text-bg-dark">
                 <div className="text-center">
-                    <Image src={logo} style={{ width: "6rem" }} />
+                    <Image src={logo} style={{ width: "6rem" }} className="" />
                     <h2 className="mt-2">Tabla de posiciones</h2>
                     <p>
                         Clasifican a la siguiente instancia, los 5 primeros de cada zona.

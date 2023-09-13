@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-
+import { Image } from "react-bootstrap";
+import phone from "../assets/phone.png";
 const FacebookComponents = () => {
     useEffect(() => {
         // Carga el SDK de Facebook después de que se monte el componente
@@ -23,10 +24,12 @@ const FacebookComponents = () => {
     }, []);
 
     return (
-        <>
-            <div className="">
+        <div className="container text-center  position-relative">
+            <div className="mx-auto">
+                <Image src={phone} width={"350px"} />
                 <div
-                    className="fb-page"
+                    className="fb-page position-absolute"
+                    style={{ top: "40px", left: "30%" }}
                     data-href="https://www.facebook.com/CASFLEALES"
                     data-tabs="timeline"
                     data-width="500"
@@ -44,7 +47,7 @@ const FacebookComponents = () => {
                     </blockquote>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 
