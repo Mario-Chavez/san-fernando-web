@@ -11,7 +11,7 @@ const NextMach = () => {
                     <h2 className="my-5">Proximo partido</h2>
                 </div>
                 <div className="my-3 pb-5  ">
-                    <div className="d-flex  justify-content-center my-2">
+                    <div className="d-flex  justify-content-center my-3">
                         <div className="text-center ">
                             <Image src={sanFernando} style={{ width: "7rem" }} />
                             <p>San fernando</p>
@@ -19,7 +19,7 @@ const NextMach = () => {
                         <div className="fs-1 fw-bolder mx-5">vs</div>
                         <div className="text-center">
                             <Image src={Nunorco} style={{ width: "6rem" }} />
-                            <p>All Boys</p>
+                            <p>Ñuñorco</p>
                         </div>
                     </div>
                     <div className="text-center ">
