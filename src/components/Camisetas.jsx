@@ -2,25 +2,42 @@ import React from "react";
 import camiseta1 from "../assets/camisetas/camiseta1.png";
 import camiseta2 from "../assets/camisetas/camiseta2.png";
 import camiseta3 from "../assets/camisetas/camiseta3.png";
-import { Col, Image, Row } from "react-bootstrap";
+import { Carousel, Col, Image, Row } from "react-bootstrap";
 
 const Camisetas = () => {
     return (
-        <div className="container-camisetas">
-            <div className="container ">
+        <div className="container-camisetas py-5">
+            <div className="container text-white">
                 <Row>
-                    <h3>Nuestras camisetas</h3>
+                    <div className="text-center my-2">
+                        <h1>Nuestra Tienda</h1>
+                        <p>Temporada 2023</p>
+                    </div>
                 </Row>
-                <Row className="d-flex ">
-                    <Col className="d-flex justify-content-center align-items-center">
-                        <Image src={camiseta1} style={{ width: "5rem" }} />
-                    </Col>
-                    <Col className="d-flex justify-content-center align-items-center">
-                        <Image src={camiseta2} style={{ width: "5rem" }} />
-                    </Col>
-                    <Col className="d-flex justify-content-center align-items-center">
-                        <Image src={camiseta3} style={{ width: "5rem" }} />
-                    </Col>
+                <Row className="d-flex my-5">
+                    <Carousel className="py-5 pb-5">
+                        <Carousel.Item>
+                            <Image
+                                src={camiseta1}
+                                className="d-block mx-auto img-fluid"
+                                style={{ width: "18rem" }}
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <Image
+                                src={camiseta2}
+                                className="d-block mx-auto img-fluid"
+                                style={{ width: "22rem" }}
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <Image
+                                src={camiseta3}
+                                className="d-block mx-auto img-fluid"
+                                style={{ width: "19rem" }}
+                            />
+                        </Carousel.Item>
+                    </Carousel>
                 </Row>
             </div>
         </div>
