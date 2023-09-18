@@ -79,11 +79,17 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="text-center  d-flex flex-column justify-content-center align-items-center">
+                    <span className="my-2">
+                        {" "}
+                        Club Atletico San Fernando &copy; 2023 todos los derechos
+                        reservados
+                    </span>
                     <span>
-                        &copy; 2023 todos los derechos desarrollo reservados a{" "}
+                        desarrollado por{" "}
                         <a
                             href="https://www.linkedin.com/in/mario-chavez-desarrollador-fullstack/"
                             target="_blank"
+                            className="text-reset mt-4"
                         >
                             Dev
                         </a>{" "}
