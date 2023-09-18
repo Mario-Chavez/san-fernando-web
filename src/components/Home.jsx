@@ -16,8 +16,6 @@ const Home = () => {
             <SectionMedia />
             <TablePosition />
             <NextMach />
-            <FacebookComponents />
-            {/* <AboutMe /> */}
             <Carousel>
                 <Carousel.Item>
                     <Image src={imgSlider1} className="d-block mx-auto img-fluid" />
@@ -32,6 +30,8 @@ const Home = () => {
                     <Carousel.Caption></Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+            <FacebookComponents />
+            {/* <AboutMe /> */}
             <Camisetas />
         </div>
     );
