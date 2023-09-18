@@ -112,7 +112,15 @@ section {
   background-size: cover;
   background-position: 50% 90%;
   position: relative;
-  
+  padding-bottom: 3rem;
+}
+/* Camisetas */
+.container-camisetas {
+  width: 100%;
+  background-image: url(/src/assets/fondo-camisetas.jpg);
+  background-size: cover;
+  background-position: 50% 90%;
+  position: relative;
   padding-bottom: 3rem;
 }
 /* shadow card fechas */

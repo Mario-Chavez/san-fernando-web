@@ -8,6 +8,7 @@ import AboutMe from "./AboutMe";
 import TablePosition from "./tablePosition";
 import FacebookComponents from "./FacebookComponents";
 import NextMach from "./NextMach";
+import Camisetas from "./camisetas";
 
 const Home = () => {
     return (
@@ -31,6 +32,7 @@ const Home = () => {
                     <Carousel.Caption></Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+            <Camisetas />
         </div>
     );
 };
