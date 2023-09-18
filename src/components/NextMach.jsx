@@ -5,7 +5,7 @@ import Nunorco from "../assets/equipos/Nunorco.png";
 
 const NextMach = () => {
     return (
-        <div className=" container my-3  ">
+        <div className=" container my-3 " id="nextMatch">
             <Container className=" text-bg-dark container-nextMatch">
                 <div className="text-center">
                     <h2 className="my-5">Proximo partido</h2>

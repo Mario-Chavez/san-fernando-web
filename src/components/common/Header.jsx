@@ -8,7 +8,8 @@ import {
     NavDropdown,
     Button,
 } from "react-bootstrap";
-import escudo from "../../assets/SANfER-escudo.png";
+import escudo from "../../assets/sanFer-escudo.png";
+import black from "../../assets/escudo-svg.png";
 
 const Header = () => {
     return (
@@ -53,15 +54,19 @@ const Header = () => {
                                 <Offcanvas.Title
                                     id={`offcanvasNavbarLabel-expand-${expand}`}
                                 >
-                                    Offcanvas
+                                    <img
+                                        src={black}
+                                        alt="escudo sanFer"
+                                        style={{ width: "8rem" }}
+                                    />
                                 </Offcanvas.Title>
                             </Offcanvas.Header>
                             <Offcanvas.Body>
                                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                                    <Nav.Link href="#inicio">Inicio</Nav.Link>
-                                    <Nav.Link href="#historia">Nuestra Historia</Nav.Link>
-                                    <Nav.Link href="#galeria">Galeria</Nav.Link>
-                                    <Nav.Link href="#fechas">Fechas</Nav.Link>
+                                    <Nav.Link href="/">Inicio</Nav.Link>
+                                    <Nav.Link href="#redes">Nuestra Redes</Nav.Link>
+                                    <Nav.Link href="#camiseta">Tienda</Nav.Link>
+                                    <Nav.Link href="#nextMatch">Fechas</Nav.Link>
                                     <NavDropdown
                                         title="El Equipo"
                                         id={`offcanvasNavbarDropdown-expand-${expand}`}

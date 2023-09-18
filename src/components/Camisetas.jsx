@@ -7,7 +7,7 @@ import Sponsor from "./Sponsor";
 
 const Camisetas = () => {
     return (
-        <div className="container-camisetas py-5">
+        <div className="container-camisetas py-5" id="camiseta">
             <div className="container text-white">
                 <Row>
                     <div className="text-center my-2">

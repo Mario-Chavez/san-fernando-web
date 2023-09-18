@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { Col, Image, Row } from "react-bootstrap";
-import phone from "../assets/phone.png";
 const FacebookComponents = () => {
     useEffect(() => {
         // Carga el SDK de Facebook después de que se monte el componente
@@ -24,7 +23,7 @@ const FacebookComponents = () => {
     }, []);
 
     return (
-        <div className="container text-center my-5 ">
+        <div className="container text-center my-5 " id="redes">
             <Row className="">
                 <Col
                     sm={7}
