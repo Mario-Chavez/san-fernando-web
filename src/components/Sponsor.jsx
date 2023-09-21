@@ -16,7 +16,7 @@ const Sponsor = () => {
                         className="d-flex my-5 justify-content-center align-items-center"
                     >
                         <a href="https://www.instagram.com/alangulo.tuc/">
-                            <Image src={alAngulo} style={{ width: "13rem" }} />
+                            <Image src={alAngulo} style={{ width: "12rem" }} />
                         </a>
                     </Col>
                     <Col
@@ -24,7 +24,7 @@ const Sponsor = () => {
                         className="d-flex my-5 justify-content-center align-items-center"
                     >
                         <a href="https://www.facebook.com/comquilmesylossueldos?locale=es_LA">
-                            <Image src={comuna} style={{ width: "13rem" }} />
+                            <Image src={comuna} style={{ width: "12rem" }} />
                         </a>
                     </Col>
                     <Col

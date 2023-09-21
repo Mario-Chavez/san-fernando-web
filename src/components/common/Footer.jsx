@@ -81,7 +81,7 @@ const Footer = () => {
                 <div className="text-center  d-flex flex-column justify-content-center align-items-center">
                     <span className="my-2">
                         {" "}
-                        Club Atletico San Fernando &copy; 2023 todos los derechos
+                        Club Atlético San Fernando &copy; 2023 todos los derechos
                         reservados
                     </span>
                     <span>

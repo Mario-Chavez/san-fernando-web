@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 const AboutMe = () => {
     return (
         <Container className="mx-auto text-white text-center my-4">
-            <h1 className="fs-1 fw-bolder">Club Atletico San Fernado</h1>
+            <h1 className="fs-1 fw-bolder">Club Atlético San Fernado</h1>
             <div>
                 <p>
                     Estadio: Club Atlético San Fernando Dirección: La Encantada, Leales{" "}

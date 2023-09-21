@@ -10,7 +10,7 @@ const Home = () => {
         <div className="">
             <SectionMedia />
             <h1 className="text-center fs-1 fw-bolder text-success my-5">
-                Club Atletico San Fernando de Leales
+                Club Atlético San Fernando de Leales
             </h1>
             <TablePosition />
             <NextMach />
