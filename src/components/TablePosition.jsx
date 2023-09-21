@@ -1,8 +1,8 @@
 import React from "react";
-import { Card, Col, Container, Image, Row } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
 import logo from "../assets/escudo-original.png";
 import zonaA from "../assets/table/zona-A.png";
-import zonab from "../assets/table/zona-b.png";
+import zonab from "../assets/table/zona-B.png";
 
 const TablePosition = () => {
     return (
