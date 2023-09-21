@@ -2,7 +2,7 @@ import SectionMedia from "./SectionMedia";
 import TablePosition from "./TablePosition";
 import FacebookComponents from "./FacebookComponents";
 import NextMach from "./NextMach";
-import Camisetas from "./camisetas";
+import Camisetas from "./Camisetas.jsx";
 import CarrouselComp from "./common/carrouselComp";
 
 const Home = () => {
@@ -16,7 +16,6 @@ const Home = () => {
             <NextMach />
             <CarrouselComp />
             <FacebookComponents />
-            {/* <AboutMe /> */}
             <Camisetas />
         </div>
     );

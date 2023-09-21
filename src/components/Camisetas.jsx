@@ -2,7 +2,7 @@ import React from "react";
 import camiseta1 from "../assets/camisetas/camiseta1.png";
 import camiseta2 from "../assets/camisetas/camiseta2.png";
 import camiseta3 from "../assets/camisetas/camiseta3.png";
-import { Carousel, Col, Image, Row } from "react-bootstrap";
+import { Carousel, Image, Row } from "react-bootstrap";
 import Sponsor from "./Sponsor";
 
 const Camisetas = () => {
