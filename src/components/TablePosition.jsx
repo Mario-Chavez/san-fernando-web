@@ -16,11 +16,11 @@ const TablePosition = () => {
                     </p>
                 </div>
                 <Row className="my-3 pb-5">
-                    <Col sm={6}>
+                    <Col sm={6} className="my-3">
                         <p>Zona A</p>
                         <Image variant="top" src={zonaA} className="w-100" />
                     </Col>
-                    <Col sm={6}>
+                    <Col sm={6} className="my-3">
                         <p>Zona B</p>
                         <Image variant="top" src={zonab} className="w-100" />
                     </Col>

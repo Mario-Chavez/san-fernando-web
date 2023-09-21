@@ -1,7 +1,7 @@
 import React from "react";
-import { Card, Col, Container, Image, Row } from "react-bootstrap";
+import { Container, Image } from "react-bootstrap";
 import sanFernando from "../assets/sanFer-escudo.png";
-import Nunorco from "../assets/equipos/Nunorco.png";
+import avellaneda from "../assets/equipos/eudoro-avellaneda.png";
 
 const NextMach = () => {
     return (
@@ -12,20 +12,20 @@ const NextMach = () => {
                 </div>
                 <div className="my-3 pb-5  ">
                     <div className="d-flex  justify-content-center my-3">
-                        <div className="text-center ">
+                        <div className="text-center mt-2 ">
                             <Image src={sanFernando} style={{ width: "7rem" }} />
                             <p>San fernando</p>
                         </div>
                         <div className="fs-1 fw-bolder mx-5">vs</div>
                         <div className="text-center">
-                            <Image src={Nunorco} style={{ width: "6rem" }} />
-                            <p>Ñuñorco</p>
+                            <Image src={avellaneda} style={{ width: "6rem" }} />
+                            <p>Eu. Avellaneda</p>
                         </div>
                     </div>
                     <div className="text-center ">
                         <div>Liga Tucumana - Ascenso LTF.</div>
-                        <div>17 septiembre, 2023</div>
-                        <div>17:30 pm</div>
+                        <div>26 septiembre, 2023</div>
+                        <div>16:00 pm</div>
                     </div>
                 </div>
             </Container>
