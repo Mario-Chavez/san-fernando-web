@@ -1,4 +1,4 @@
-# README - Sitio Web del Club Atlético San Fernando
+# Sitio Web del Club Atlético San Fernando
 
 ¡Bienvenido al repositorio de la página web oficial del Club Atlético San Fernando! En este README, proporcionaremos una descripción general de las características y funcionalidades de nuestro sitio web.
 
