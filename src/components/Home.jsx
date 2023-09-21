@@ -3,7 +3,7 @@ import TablePosition from "./TablePosition.jsx";
 import FacebookComponents from "./FacebookComponents.jsx";
 import NextMach from "./NextMach.jsx";
 import Camisetas from "./Camisetas.jsx";
-import CarrouselComp from "./common/carrouselComp.jsx";
+import CarrouselComp from "./common/CarrouselComponents.jsx";
 
 const Home = () => {
     return (
